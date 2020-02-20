@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.title{
+    text-align: center;
+    margin: 30px auto;
+    color:  #E1C165;
+    
+}
+img {
+    display: block;
+    height: 48px;
+    width: 48px;
+    opacity: 0;
+}
+
+.item-image {
+   display: inline-block;
+    border: 1px solid #000;
+    margin: 10px;
+    position: relative;
+ 
+    
+}
+
+
+.itemroll{
+    position: relative;
+    display: flex;
+  justify-content: center;
+    color :#94724D;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(5px, 500px); */
+    background-color: rgba(12, 27, 36, );
+}
+
+.item-guess {
+    opacity: 0;
+}
+
+body {
+    background-color: rgba(12, 27, 36, 0.95);
+}
+
+button {
+    color:  #E1C165;
+    background-color: rgba(12, 27, 36, .95);
+    border:3px solid #94724D;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+ font-family: LoL Display,Beaufort for LOL,BeaufortforLOL-Bold,serif;
+
+}
+ 
+.roll{
+    position: relative;
+    width: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 100%);
+    margin-top: 300px;
+}
+
+.check-answer {
+    
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button h1{
+    font-size: 20px;
+    padding: 10px;
+}
+button:hover {
+  
+    border:3px solid rgb(202, 154, 103);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, 100px);
+    
+}
+
+.sample{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.box-e .title::after {
+    top: 65%;
+    height: 2px;
+    width: 0%;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.6);
+      transition: 0.5s ease all .3s;
+  }
+  
+  .box-e:hover .title::after {
+    width: 90%;
+      transition: 0.3s ease all;
+  }
+
+   .box-e {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .answer{
+    
+      display: hidden;
+      position: absolute;
+      justify-content: center;
+      width: 100px;
+      left: 50%;
+      margin-top: 200px;
+      
+      
+  }
+
+  .image3{
+      display: flex;
+      justify-content: center;
+      transform: translateX(0%);
+      border: none;
+  }
+  
