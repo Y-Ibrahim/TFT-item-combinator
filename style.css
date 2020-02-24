@@ -108,7 +108,7 @@ button:hover {
 display: flex;
 justify-content: center;
 align-items: center;
-
+white-space: nowrap;
 }
 
 .box-e .title::after {
